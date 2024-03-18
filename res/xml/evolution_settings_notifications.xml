@@ -138,7 +138,7 @@
         android:key="notification_flashlight_category"
         android:title="@string/notification_flashlight_category">
 
-        <SwitchPreference
+        <SwitchPreferenceCompat
             android:key="default_notification_torch"
             android:title="@string/notification_torch_title"
             android:summary="@string/notification_torch_summary"

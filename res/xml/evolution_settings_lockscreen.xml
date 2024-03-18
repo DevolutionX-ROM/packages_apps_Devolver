@@ -203,7 +203,7 @@
             android:entryValues="@array/lockscreen_shortcut_values"
             android:defaultValue="0" />
 
-        <SwitchPreference
+        <SwitchPreferenceCompat
             android:key="lockscreen_shortcut_enforce"
             android:title="@string/lockscreen_shortcut_enforce_title"
             android:summary="@string/lockscreen_shortcut_enforce_summary"
