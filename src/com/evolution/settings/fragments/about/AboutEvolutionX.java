@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 Evolution X
+ * Copyright (C) 2019-2022 Devolution X
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.fragments.about;
+package com.devolution.settings.fragments.about;
 
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -25,12 +25,12 @@ import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 
-public class AboutEvolutionX extends DashboardFragment {
+public class AboutDevolutionX extends DashboardFragment {
 
-    private static final String TAG = "AboutEvolutionX";
+    private static final String TAG = "AboutDevolutionX";
 
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_about;
+        return R.xml.devolution_settings_about;
     }
 
     @Override

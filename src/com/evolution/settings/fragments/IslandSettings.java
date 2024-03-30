@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2017 AospExtended ROM
- *               2023 Evolution X
+ *               2023 Devolution X
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.devolution.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -49,7 +49,7 @@ public class IslandSettings extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_island;
+        return R.xml.devolution_settings_island;
     }
 
     @Override
@@ -73,5 +73,5 @@ public class IslandSettings extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_island);
+            new BaseSearchIndexProvider(R.xml.devolution_settings_island);
 }

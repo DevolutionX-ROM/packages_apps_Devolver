@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2023 Devolution X
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/always_on_display_schedule_title">
+
+    <com.devolution.settings.preference.SecureSettingListPreference
+        android:key="doze_always_on_auto_mode"
+        android:title="@string/night_display_auto_mode_title"
+        android:dialogTitle="@string/night_display_auto_mode_title"
+        android:entries="@array/doze_always_on_auto_mode_entries"
+        android:entryValues="@array/doze_always_on_auto_mode_values"
+        android:persistent="false" />
+
+    <Preference
+        android:key="doze_always_on_auto_since"
+        android:title="@string/night_display_start_time_title" />
+
+    <Preference
+        android:key="doze_always_on_auto_till"
+        android:title="@string/night_display_end_time_title" />
+
+</PreferenceScreen>

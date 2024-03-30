@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2022 crDroid Android Project
- *               2023 Evolution X
+ *               2023 Devolution X
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.devolution.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -54,7 +54,7 @@ import com.android.settings.SettingsPreferenceFragment;
 
 import com.bumptech.glide.Glide;
 
-import com.android.internal.util.evolution.ThemeUtils;
+import com.android.internal.util.devolution.ThemeUtils;
 
 import java.util.ArrayList;
 import java.util.HashMap;

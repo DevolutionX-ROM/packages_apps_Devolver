@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2024 Evolution X
+ * Copyright (C) 2019-2024 Devolution X
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.devolution.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -53,7 +53,7 @@ public class SpoofSettings extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_spoof;
+        return R.xml.devolution_settings_spoof;
     }
 
     @Override
@@ -81,5 +81,5 @@ public class SpoofSettings extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_spoof);
+            new BaseSearchIndexProvider(R.xml.devolution_settings_spoof);
 }

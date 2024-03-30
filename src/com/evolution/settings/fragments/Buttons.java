@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2023 Evolution X
+ * Copyright (C) 2023 Devolution X
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.devolution.settings.fragments;
 
 import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_2BUTTON_OVERLAY;
 import static android.view.WindowManagerPolicyConstants.NAV_BAR_MODE_3BUTTON_OVERLAY;
@@ -55,11 +55,11 @@ import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.evolution.settings.preference.CustomDialogPreference;
-import com.evolution.settings.preference.SecureSettingSwitchPreference;
-import com.evolution.settings.preference.SystemSettingSwitchPreference;
-import com.evolution.settings.preference.buttons.*;
-import com.evolution.settings.utils.ButtonSettingsUtils;
+import com.devolution.settings.preference.CustomDialogPreference;
+import com.devolution.settings.preference.SecureSettingSwitchPreference;
+import com.devolution.settings.preference.SystemSettingSwitchPreference;
+import com.devolution.settings.preference.buttons.*;
+import com.devolution.settings.utils.ButtonSettingsUtils;
 
 import java.util.List;
 import java.util.UUID;
@@ -134,7 +134,7 @@ public class Buttons extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_buttons;
+        return R.xml.devolution_settings_buttons;
     }
 
     @Override
@@ -658,5 +658,5 @@ public class Buttons extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_buttons);
+            new BaseSearchIndexProvider(R.xml.devolution_settings_buttons);
 }

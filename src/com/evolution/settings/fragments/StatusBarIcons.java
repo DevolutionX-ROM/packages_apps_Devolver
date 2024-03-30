@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2021 AospExtended ROM Project
- *               2023 Evolution X
+ *               2023 Devolution X
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.devolution.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -50,7 +50,7 @@ import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceScreen;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.internal.util.evolution.ThemeUtils;
+import com.android.internal.util.devolution.ThemeUtils;
 import com.android.settings.R;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.Indexable;

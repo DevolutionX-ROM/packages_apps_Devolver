@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2022 crDroid Android Project
- *               2023 Evolution X
+ *               2023 Devolution X
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.devolution.settings.fragments;
 
 import android.app.AlertDialog;
 import android.content.ContentResolver;
@@ -48,10 +48,10 @@ import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.evolution.settings.preference.SecureSettingSwitchPreference;
-import com.evolution.settings.preference.SystemSettingListPreference;
-import com.evolution.settings.preference.SystemSettingSeekBarPreference;
-import com.evolution.settings.preference.SystemSettingSwitchPreference;
+import com.devolution.settings.preference.SecureSettingSwitchPreference;
+import com.devolution.settings.preference.SystemSettingListPreference;
+import com.devolution.settings.preference.SystemSettingSeekBarPreference;
+import com.devolution.settings.preference.SystemSettingSwitchPreference;
 
 import java.util.Date;
 
@@ -79,7 +79,7 @@ public class Clock extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_status_bar_clock;
+        return R.xml.devolution_settings_status_bar_clock;
     }
 
     @Override
@@ -233,5 +233,5 @@ public class Clock extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_status_bar_clock);
+            new BaseSearchIndexProvider(R.xml.devolution_settings_status_bar_clock);
 }

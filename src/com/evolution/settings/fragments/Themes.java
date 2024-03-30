@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2023 Evolution X
+ * Copyright (C) 2023 Devolution X
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.devolution.settings.fragments;
 
 import static android.os.UserHandle.USER_CURRENT;
 import static android.os.UserHandle.USER_SYSTEM;
@@ -47,13 +47,13 @@ import androidx.preference.SwitchPreferenceCompat;
 import androidx.preference.TwoStatePreference;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.internal.util.evolution.EvolutionUtils;
+import com.android.internal.util.devolution.DevolutionUtils;
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.evolution.settings.preference.SystemSettingListPreference;
+import com.devolution.settings.preference.SystemSettingListPreference;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -74,7 +74,7 @@ public class Themes extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_themes;
+        return R.xml.devolution_settings_themes;
     }
 
     @Override
@@ -89,7 +89,7 @@ public class Themes extends DashboardFragment implements
         .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
 
         mSignalCategory = (PreferenceCategory) findPreference(STATUS_BAR_SIGNAL_CATEGORY);
-        if (EvolutionUtils.isWifiOnly(mContext)) {
+        if (DevolutionUtils.isWifiOnly(mContext)) {
             prefScreen.removePreference(mSignalCategory);
         }
     }
@@ -111,5 +111,5 @@ public class Themes extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_themes);
+            new BaseSearchIndexProvider(R.xml.devolution_settings_themes);
 }

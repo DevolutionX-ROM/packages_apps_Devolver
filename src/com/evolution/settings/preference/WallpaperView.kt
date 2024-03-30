@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.preference
+package com.devolution.settings.preference
 
 import android.app.WallpaperManager
 import android.content.Context

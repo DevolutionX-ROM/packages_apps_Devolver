@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.preference;
+package com.devolution.settings.preference;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -24,7 +24,7 @@ import android.util.AttributeSet;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 
-import com.android.internal.util.evolution.EvolutionUtils;
+import com.android.internal.util.devolution.DevolutionUtils;
 
 public class SystemPropertyListPreference extends ListPreference {
 
@@ -52,7 +52,7 @@ public class SystemPropertyListPreference extends ListPreference {
                 editor.putString(getKey(), value);
                 editor.apply();
                 SystemProperties.set(getKey(), value);
-                EvolutionUtils.showSystemRestartDialog(context);
+                DevolutionUtils.showSystemRestartDialog(context);
                 return true;
             }
         });

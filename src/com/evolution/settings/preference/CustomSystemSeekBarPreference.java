@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2017 AICP
- *               2019-2022 Evolution X
+ *               2019-2022 Devolution X
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.preference;
+package com.devolution.settings.preference;
 
 import android.content.Context;
 import android.util.AttributeSet;

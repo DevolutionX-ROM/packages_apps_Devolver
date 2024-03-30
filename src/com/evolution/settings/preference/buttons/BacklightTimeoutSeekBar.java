@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.preference.buttons;
+package com.devolution.settings.preference.buttons;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;

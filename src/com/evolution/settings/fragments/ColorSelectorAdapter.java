@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.fragments;
+package com.devolution.settings.fragments;
 
 import android.content.res.ColorStateList;
 import android.graphics.Color;

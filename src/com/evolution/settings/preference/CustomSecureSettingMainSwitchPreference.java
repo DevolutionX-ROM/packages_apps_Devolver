@@ -1,9 +1,9 @@
-package com.evolution.settings.preference;
+package com.devolution.settings.preference;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
-import com.evolution.settings.preference.SecureSettingsStore;
+import com.devolution.settings.preference.SecureSettingsStore;
 
 import com.android.settingslib.widget.MainSwitchPreference;
 

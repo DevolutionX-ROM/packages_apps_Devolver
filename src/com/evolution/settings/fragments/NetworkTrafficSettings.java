@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2023 Evolution X
+ * Copyright (C) 2023 Devolution X
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.devolution.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -42,7 +42,7 @@ import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.evolution.settings.preference.CustomSeekBarPreference;
+import com.devolution.settings.preference.CustomSeekBarPreference;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,7 +63,7 @@ public class NetworkTrafficSettings extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_network_traffic;
+        return R.xml.devolution_settings_network_traffic;
     }
 
     @Override
@@ -125,5 +125,5 @@ public class NetworkTrafficSettings extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_network_traffic);
+            new BaseSearchIndexProvider(R.xml.devolution_settings_network_traffic);
 }

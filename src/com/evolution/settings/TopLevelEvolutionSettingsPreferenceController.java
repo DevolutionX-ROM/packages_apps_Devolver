@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 Evolution X
+ * Copyright (C) 2019-2022 Devolution X
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.evolution.settings;
+package com.devolution.settings;
 
 import android.content.Context;
 
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class TopLevelEvolutionSettingsPreferenceController extends BasePreferenceController {
+public class TopLevelDevolutionSettingsPreferenceController extends BasePreferenceController {
 
-    public TopLevelEvolutionSettingsPreferenceController(Context context,
+    public TopLevelDevolutionSettingsPreferenceController(Context context,
             String preferenceKey) {
         super(context, preferenceKey);
     }

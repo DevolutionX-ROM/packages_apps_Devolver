@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2019-2022 Evolution X
+ * Copyright (C) 2019-2022 Devolution X
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings;
+package com.devolution.settings;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
@@ -23,13 +23,13 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
 @SearchIndexable
-public class EvolutionSettings extends DashboardFragment {
+public class DevolutionSettings extends DashboardFragment {
 
-    private static final String TAG = "EvolutionSettings";
+    private static final String TAG = "DevolutionSettings";
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings;
+        return R.xml.devolution_settings;
     }
 
     @Override
@@ -43,5 +43,5 @@ public class EvolutionSettings extends DashboardFragment {
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings);
+            new BaseSearchIndexProvider(R.xml.devolution_settings);
 }

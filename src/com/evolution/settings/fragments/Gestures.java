@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2023 Evolution X
+ * Copyright (C) 2023 Devolution X
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.devolution.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -36,7 +36,7 @@ import androidx.preference.SwitchPreferenceCompat;
 import androidx.preference.TwoStatePreference;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.internal.util.evolution.EvolutionUtils;
+import com.android.internal.util.devolution.DevolutionUtils;
 
 import com.android.settings.R;
 import com.android.settings.Utils;
@@ -55,7 +55,7 @@ public class Gestures extends DashboardFragment implements
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_gestures;
+        return R.xml.devolution_settings_gestures;
     }
 
     @Override
@@ -83,5 +83,5 @@ public class Gestures extends DashboardFragment implements
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_gestures);
+            new BaseSearchIndexProvider(R.xml.devolution_settings_gestures);
 }

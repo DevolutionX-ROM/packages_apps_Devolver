@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2019-2023 Devolution X
+     SPDX-License-Identifier: Apache-2.0
+-->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/sensor_block_title">
+
+    <com.android.settingslib.widget.TopIntroPreference
+        android:key="sensor_block_intro"
+        android:title="@string/sensor_block_summary" />
+
+    <!-- Main switch -->
+    <com.devolution.settings.preference.SystemSettingMainSwitchPreference
+        android:key="sensor_block"
+        android:title="@string/sensor_block_main_switch_title"
+        android:defaultValue="false" />
+
+    <!-- App picker activity for sensor block -->
+    <PreferenceCategory
+        android:title="@string/sensor_block_app_picker_title"
+        android:dependency="sensor_block"
+        android:key="sensor_block_applications">
+
+        <Preference
+            android:key="add_sensor_block_packages"
+            android:icon="@drawable/ic_menu_add_white"
+            android:title="@string/add_sensor_block_package_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

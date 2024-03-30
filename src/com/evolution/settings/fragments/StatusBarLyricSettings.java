@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2022 Project Kaleidoscope
- *               2023 Evolution X
+ *               2023 Devolution X
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.fragments;
+package com.devolution.settings.fragments;
 
 import android.os.Bundle;
 import android.provider.SearchIndexableResource;
@@ -34,7 +34,7 @@ public class StatusBarLyricSettings extends DashboardFragment {
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.evolution_settings_status_bar_lyric;
+        return R.xml.devolution_settings_status_bar_lyric;
     }
 
     @Override
@@ -53,5 +53,5 @@ public class StatusBarLyricSettings extends DashboardFragment {
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
-            new BaseSearchIndexProvider(R.xml.evolution_settings_status_bar_lyric);
+            new BaseSearchIndexProvider(R.xml.devolution_settings_status_bar_lyric);
 }

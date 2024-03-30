@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.evolution.settings.preference.colorpicker;
+package com.devolution.settings.preference.colorpicker;
 
 import android.app.AlertDialog;
 import android.content.Context;

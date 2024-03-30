@@ -1,4 +1,4 @@
-package com.evolution.settings.preference;
+package com.devolution.settings.preference;
 
 import android.content.ContentResolver;
 import android.content.Context;

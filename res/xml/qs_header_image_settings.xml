@@ -30,7 +30,7 @@
         android:title="@string/qs_header_image_title"
         android:summary="@string/qs_header_image_summary"
         android:dependency="qs_header_image_enabled"
-        android:fragment="com.evolution.settings.fragments.qs.QsHeaderImageStyles" />
+        android:fragment="com.devolution.settings.fragments.qs.QsHeaderImageStyles" />
 
     <Preference
         android:key="qs_header_image_uri"
@@ -39,7 +39,7 @@
         android:persistent="false"
         android:dependency="qs_header_image_enabled" />
 
-    <com.evolution.settings.preference.SystemSettingListPreference
+    <com.devolution.settings.preference.SystemSettingListPreference
         android:key="qs_header_image_tint"
         android:title="@string/qs_header_image_tint_title"
         android:entries="@array/qs_header_image_tint_entries"
@@ -47,13 +47,13 @@
         android:entryValues="@array/qs_header_image_tint_values"
         android:defaultValue="0" />
 
-    <com.evolution.settings.preference.colorpicker.ColorPickerPreference
+    <com.devolution.settings.preference.colorpicker.ColorPickerPreference
         android:key="qs_header_image_tint_custom"
         android:title="@string/qs_header_image_tint_custom_title"
         android:dependency="qs_header_image_enabled"
         android:defaultValue="0xffffffff" />
 
-    <com.evolution.settings.preference.SystemSettingSeekBarPreference
+    <com.devolution.settings.preference.SystemSettingSeekBarPreference
         android:key="qs_header_image_alpha"
         android:title="@string/qs_header_image_alpha_title"
         android:max="255"
@@ -61,7 +61,7 @@
         android:dependency="qs_header_image_enabled"
         android:defaultValue="255" />
 
-    <com.evolution.settings.preference.SystemSettingSeekBarPreference
+    <com.devolution.settings.preference.SystemSettingSeekBarPreference
         android:key="qs_header_image_height_portrait"
         android:title="@string/qs_header_image_height_portrait_title"
         android:max="550"
@@ -69,14 +69,14 @@
         android:defaultValue="325"
         android:dependency="qs_header_image_enabled" />
 
-    <com.evolution.settings.preference.SystemSettingSwitchPreference
+    <com.devolution.settings.preference.SystemSettingSwitchPreference
         android:key="qs_header_image_landscape_enabled"
         android:title="@string/qs_header_image_landscape_enabled_title"
         android:summary="@string/qs_header_image_landscape_enabled_summary"
         android:dependency="qs_header_image_enabled"
         android:defaultValue="false" />
 
-    <com.evolution.settings.preference.SystemSettingSeekBarPreference
+    <com.devolution.settings.preference.SystemSettingSeekBarPreference
         android:key="qs_header_image_height_landscape"
         android:title="@string/qs_header_image_height_landscape_title"
         android:max="400"
@@ -84,7 +84,7 @@
         android:defaultValue="200"
         android:dependency="qs_header_image_landscape_enabled" />
 
-    <com.evolution.settings.preference.SystemSettingSeekBarPreference
+    <com.devolution.settings.preference.SystemSettingSeekBarPreference
         android:key="qs_header_image_padding_side"
         android:title="@string/qs_header_image_padding_side_title"
         android:max="100"
@@ -92,7 +92,7 @@
         android:dependency="qs_header_image_enabled"
         android:defaultValue="-50" />
 
-    <com.evolution.settings.preference.SystemSettingSeekBarPreference
+    <com.devolution.settings.preference.SystemSettingSeekBarPreference
         android:key="qs_header_image_padding_top"
         android:title="@string/qs_header_image_padding_top_title"
         android:max="150"

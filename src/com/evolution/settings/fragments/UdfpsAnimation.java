@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2021 AospExtended ROM Project
- *               2023 Evolution X
+ *               2023 Devolution X
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.evolution.settings.fragments;
+package com.devolution.settings.fragments;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -68,7 +68,7 @@ import org.json.JSONObject;
 public class UdfpsAnimation extends SettingsPreferenceFragment {
 
     private RecyclerView mRecyclerView;
-    private String mPkg = "com.evolution.udfps.resources";
+    private String mPkg = "com.devolution.udfps.resources";
     private AnimationDrawable animation;
 
     private Resources udfpsRes;
